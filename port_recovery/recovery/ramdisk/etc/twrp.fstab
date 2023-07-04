@@ -1,0 +1,14 @@
+# mount point	fstype		device
+#twrp.fstab
+/system		      ext4		/dev/block/mmcblk0p5                           
+/cache		      ext4		/dev/block/mmcblk0p6
+/data		      ext4		/dev/block/mmcblk0p7                            
+/protect_f		  emmc		/dev/block/mmcblk0p2
+/protect_s		  emmc		/dev/block/mmcblk0p3
+/ebr1             emmc      /dev/block/mmcblk0p1
+/sec_ro           emmc      /dev/block/mmcblk0p4
+#/boot		      emmc		/dev/block/platform/sdhci-tegra.3/by-name/LNX
+#/recovery	      emmc		/dev/block/platform/sdhci-tegra.3/by-name/SOS   flags=backup=1
+/external_sd      vfat      /dev/block/mmcblk1p1                            flags=removable;storage;display="SDCARD"
+/usb-otg          vfat      /dev/block/sda1      /dev/block/sda             flags=removable;storage;display=USB-OTG
+
