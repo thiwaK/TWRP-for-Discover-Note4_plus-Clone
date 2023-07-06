@@ -18,12 +18,19 @@ Firmware for this particular device could not be found on the internet (maybe ba
 - Android Version : 8.0(fake) / 4.4(actual)
 - Internal Storage : 64GB(fake) / 16GB(actual)
  
-## File Description
-- `stock_recovery.img`: Extracted stock recovery image(ALPS.KK1.MP1.V2.10).
-- `twrp-3.7.0_9-0-tilapia.img`: Pre-build TWRP image. Use for porting.
+## File/Folder Description
+- `port_recovery`: Unpacked port recovery.
+- ~~`stock_recovery`: Unpacked stock recovery.~~ Removed.
+
+<details>
+<summary>Additional files</summary>
 - `MT6582_Android_scatter.txt`: Device memory structure file.
 - `preloader_bird82_cwet_a_kk.bin`: Device partition index file.
 - `boot_magisk.img`: Magisk patched stock boot.img
+- `stock_recovery.img`: Extracted stock recovery image(ALPS.KK1.MP1.V2.10).
+- ~~`twrp-3.7.0_9-0-tilapia.img`: Pre-build TWRP image. Use for porting.~~ Removed.
+</details>
+
 
 ## Instructions
 
