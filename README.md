@@ -24,11 +24,11 @@ Firmware for this particular device could not be found on the internet (maybe ba
 
 <details>
 <summary>Additional files</summary>
-- `MT6582_Android_scatter.txt`: Device memory structure file.
-- `preloader_bird82_cwet_a_kk.bin`: Device partition index file.
-- `boot_magisk.img`: Magisk patched stock boot.img
-- `stock_recovery.img`: Extracted stock recovery image(ALPS.KK1.MP1.V2.10).
-- ~~`twrp-3.7.0_9-0-tilapia.img`: Pre-build TWRP image. Use for porting.~~ Removed.
++ <details>`MT6582_Android_scatter.txt`: Device memory structure file.</details>
++ <details>`preloader_bird82_cwet_a_kk.bin`: Device partition index file.</details>
++ <details>`boot_magisk.img`: Magisk patched stock boot.img</details>
++ <details>`stock_recovery.img`: Extracted stock recovery image(ALPS.KK1.MP1.V2.10).</details>
++ <details>~~`twrp-3.7.0_9-0-tilapia.img`: Pre-build TWRP image. Use for porting.~~ Removed.</details>
 </details>
 
 
